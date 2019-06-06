@@ -1,0 +1,28 @@
+{
+  "name": "nightwatchjs-cucumber",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e-test": "cucumber-js --require cucumber.conf.js --require step-definitions --format node_modules/cucumber-pretty"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://jagadeeshshetty@github.com/jagadeeshshetty/nightwatchjs-cucumber.git"
+  },
+  "keywords": [],
+  "author": "Jagadeesh Shetty",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jagadeeshshetty/nightwatchjs-cucumber/issues"
+  },
+  "homepage": "https://github.com/jagadeeshshetty/nightwatchjs-cucumber#readme",
+  "devDependencies": {
+    "chromedriver": "^74.0.0",
+    "cucumber": "^5.1.0",
+    "cucumber-pretty": "^1.5.0",
+    "nightwatch": "^1.1.11",
+    "nightwatch-api": "^2.3.0"
+  }
+}
