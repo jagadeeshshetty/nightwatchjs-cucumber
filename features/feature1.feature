@@ -1,16 +1,16 @@
 
-@googleSearchTwo
-Feature: Google Search Two
+@feature1
+Feature: Google Search One
 
-    @searchTwoOne
-    Scenario: Searching Google Two
+    @scenario1_1
+    Scenario: Searching Google One One
 
         Given I open Google's search page
         Then the title is "Google"
         And the Google search form exists
 
-    @searchTwoTwo
-    Scenario: Searching Google Two
+    @scenario1_2
+    Scenario: Searching Google One Two
 
         Given I open Google's search page
         Then the title is "Google"
