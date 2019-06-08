@@ -12,6 +12,10 @@ module.exports = {
             },
             desiredCapabilities: {
                 browserName: 'chrome'
+            },
+            screenshots: {
+                enabled: true,
+                path: 'screenshots'
             }
         }
     }
