@@ -31,6 +31,9 @@ npm run e2e-test -- --tags "(@feature1 or @feature2) and @scenario2_2"
 npm run e2e-test -- --tags "not @feature1"
 
 npm run e2e-test -- --tags "not(@scenario2_2 or @scenario2_1)"
+
+Retry failed test cases execution
+npm run e2e-test -- --tags @feature2 --retries
 ```
 
 ## Reference
